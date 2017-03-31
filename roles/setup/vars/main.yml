@@ -5,48 +5,31 @@ general:
 
 # homebrew applications
 applications:
-  - autojump
   - git
-  - tree
-  - httpie
-  - curl
   - wget
-  - kubectl
-  - kubernetes-helm
   - zsh
   - go
   - vim
-  - hugo
-  - saltstack
-  - neovim
-  - ag 
-  - ctags
-  - terraform
 
 # homebrew cask applications
 cask_applications:
   - google-chrome
-  - slack
-  - iterm2
-  - caffeine
-  - docker
-  - minikube
-  - vagrant
-  - emacs
-  - garmin-express
-  - 1password
+  - odrive
+  - dropbox
+  - nylas-mail
   - alfred
-  - virtualbox
-  - spotify
-  - steam
+  - omnifocus
+  - nvalt
+  - lastpass
+  - tunnelblick
+  - vlc
+  - the-unarchiver
+  - firefox
+
 
 downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-   suuntolink:
-     name: Suunto Movescount link
-     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
+   textexpander:
+     name: Textexpander 5
+     url: http://dl.smilesoftware.com/com.smileonmymac.textexpander/TextExpander.zip
+     dest: "{{general.local_home}}/Downloads/TextExpander.zip"
 
